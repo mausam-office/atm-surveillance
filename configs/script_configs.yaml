@@ -1,0 +1,20 @@
+script_configs_path: configs/script_configs.yaml
+video_source_: rtsp://admin:admin@192.168.1.188
+video_source: rtsp://192.168.10.12:8554/profile0
+model_dir: saved_model
+model_name: sgd_v5(train_v5)
+fourcc: MJPG
+video_file_extention: avi
+video_parent_dir: media/recordings
+duration_unit_opts: min, hour
+video_duration: 1
+duration_unit: hour
+landmark_model_opts: 'lite, full, heavy'
+landmark_model: full
+plot_landmarks: false
+show_landmarks: false
+show_frames: true
+base_url: http://202.52.240.148:5062
+route_atm_alert: atm/public/api/image
+storage_drive: D:/
+free_storge_threshold: 1
