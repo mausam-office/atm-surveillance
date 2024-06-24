@@ -15,6 +15,7 @@ def init_logger(filename):
 
 
 if __name__ == "__main__":
+    checks.check_dir_existance(DEFAULT_LOGDIR)
     init_logger(f"{DEFAULT_LOGDIR}/atm.log")
 
     if checks.check_file_exitstance([CONFIG_FILEPATH], req_sts=True):
