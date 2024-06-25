@@ -16,5 +16,5 @@ show_landmarks: false
 show_frames: true
 base_url: http://202.52.240.148:5062
 route_atm_alert: atm/public/api/image
-storage_drive: D:/
-free_storge_threshold: 1
+free_storge_threshold: 10
+fps: 15

@@ -1,8 +1,11 @@
 import logging
+import os
 from atm.utils import checks
 
-CONFIG_FILEPATH = 'configs/script_configs.yaml'
-DEFAULT_LOGDIR = 'logs'
+ROOT = os.path.dirname(__file__)
+
+CONFIG_FILEPATH = os.path.join(ROOT, 'configs/script_configs.yaml')
+DEFAULT_LOGDIR = os.path.join(ROOT, 'logs')
 
 def init_logger(filename):
     logging.basicConfig(
@@ -20,4 +23,4 @@ if __name__ == "__main__":
 
     if checks.check_file_exitstance([CONFIG_FILEPATH], req_sts=True):
         from atm import pose_pred
-        pose_pred.main(CONFIG_FILEPATH)
+        pose_pred.main(CONFIG_FILEPATH, ROOT)
