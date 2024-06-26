@@ -20,3 +20,5 @@ free_storge_threshold: 10
 fps: 15
 gpio_led: 23
 gpio_button: 16
+safe_occurence_threshold: 4
+unsafe_occurence_threshold: 4
