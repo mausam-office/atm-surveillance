@@ -13,7 +13,7 @@ landmark_model_opts: 'lite, full, heavy'
 landmark_model: full
 plot_landmarks: false
 show_landmarks: false
-show_frames: true
+show_frames: false
 base_url: http://202.52.240.148:5062
 route_atm_alert: atm/public/api/image
 free_storge_threshold: 10
