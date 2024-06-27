@@ -22,3 +22,4 @@ gpio_led: 23
 gpio_button: 16
 safe_occurence_threshold: 4
 unsafe_occurence_threshold: 4
+debug: true
