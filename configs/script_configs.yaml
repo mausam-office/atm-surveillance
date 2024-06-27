@@ -11,7 +11,7 @@ video_duration: 1
 duration_unit: hour
 landmark_model_opts: 'lite, full, heavy'
 landmark_model: full
-plot_landmarks: false
+plot_landmarks: true
 show_landmarks: false
 show_frames: false
 base_url: http://202.52.240.148:5062
